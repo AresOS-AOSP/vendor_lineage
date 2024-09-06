@@ -6,7 +6,7 @@ $(call inherit-product-if-exists, vendor/addons/config.mk)
 #$(call inherit-product, vendor/gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/google/gms/config.mk)
 $(call inherit-product-if-exists, vendor/google/pixel/config.mk)
-$(call inherit-product-if-exists, vendor/certification/config.mk)
+$(call inherit-product-if-exists, vendor/extras/config.mk)
 PRODUCT_BRAND ?= AresOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
