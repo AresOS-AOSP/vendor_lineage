@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
     build-manifest
 
 PRODUCT_PACKAGES += \
-    ExactCalculator
+    NumberHub
 
 ifeq ($(PRODUCT_IS_AUTOMOTIVE),)
 PRODUCT_PACKAGES += \
